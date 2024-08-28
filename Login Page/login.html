@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="contener">
+        <div class="left">
+            <img src="../Image/img2.svg" alt="">
+
+        </div>
+        <div class="right">
+            <form action="" onsubmit="return login(event)" name="loginForm">
+                <h1> Log in </h1>
+                <p>Don't have  an Account ? <a href="../Signup.html" target="_blank">Sing up </a> </p>
+                <div>
+                    <label for="Name">username</label>
+                    <input type="email" placeholder="Email Address " name="email"  title="Pleased Fill Email">
+               
+                </div>
+                <div >
+                    <label for="Name" >Password</label>
+                    <input type="password" placeholder="Password" name="Password" >
+               
+                </div>
+                <div class="Error">
+                    <p id="erroemsg" ></p>
+                </div>
+                <div>
+                    <button>Log in</button>
+                  
+                </div>
+            </form>
+        </div>
+           
+
+        <script src="login.js"></script>
+    </div>
+</body>
+</html>

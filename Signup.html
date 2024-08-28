@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Signup Page</title>
+    <link rel="stylesheet" href="Sigup.css">
+</head>
+<body>
+    
+    <div class="contener">
+        <div class="left">
+            <form action="" name="signup" onsubmit="validation(event)">
+                <h1> Registration Form</h1>
+                <p>Already have Account ? <a href="Login Page/login.html" target="_blank">Login here</a> </p>
+                <div class="hy">
+                    <input type="text" placeholder="First Name" name="name" >
+                    <input type="text" placeholder="Last Name"  name="lsatname" >
+                </div>
+                <div>
+                    <input type="tel" placeholder="Phone" name="number">
+                    <input type="Email" placeholder="Email" name="email">
+                </div>
+                <div>
+                    <input type="password" placeholder="Password" name="password">
+                    <input type="password" placeholder="Confirm Password" name="confirmpassword">
+                </div>
+                <div class="Error">
+                    <p id="errorMsg"></p>
+                </div>
+                <div>
+                    <button type="submit">Sign up</button>
+                  
+                </div>
+
+
+
+
+            </form>
+
+
+        </div>
+        <div class="right">
+            <img src="Image/img1.svg" alt="">
+
+        </div>
+      
+
+
+
+    </div>
+
+
+
+    
+
+    <script src="Signup.js"></script>
+</body>
+</html>

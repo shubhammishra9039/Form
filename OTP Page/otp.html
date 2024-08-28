@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP Page</title>
+    <link rel="stylesheet" href="otp.css">
+</head>
+<body>
+   
+    
+    <div class="contener">
+        <div class="left">
+            <form action="" onsubmit=" return verifyOTP(event)" name="otpForm">
+                <h1>Verify OTP</h1>
+               
+                <p id="otpNO"> </p>
+                <p id="timer"></p>
+                <div class="hy">
+                    <input type="text" placeholder="Enter OTP" name="otp" >
+                    
+                </div>
+              
+                <div class="Error">
+                    <p id="errormsg"></p>
+                </div>
+                <div>
+                    <button>Sign up</button>
+                  
+                </div>
+
+
+
+
+            </form>
+
+
+        </div>
+        <div class="right">
+            <img src="../Image/OTP.svg" alt="">
+
+        </div>
+      
+
+
+
+    </div>
+
+
+
+
+
+
+    <script src="otp.js"></script>
+</body>
+</html>
