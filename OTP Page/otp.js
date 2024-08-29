@@ -15,7 +15,7 @@ let timer = 25;
 console.log(errorMsg);
 
 setInterval(() => {
-  // timer--;
+  timer--;
 
   if (timer > 5) {
     timerText.innerText = "Time Left :" + timer;
