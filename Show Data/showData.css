@@ -97,3 +97,56 @@ body {
     bottom: 55px;
   }
 }
+
+
+
+ /*  & Responsive  */
+
+ @media only screen and (max-width: 768px)
+ {
+   .contener
+   {
+     flex-direction: column;
+     width: 93%;
+     height: 50vh;
+   }
+   .contener .left table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
+    border-radius: 15px;
+    
+   }
+   
+   .contener .left table tr th{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 5vh;
+    flex-direction: column;
+    gap: 25px;
+    border-left: #262f43;
+    
+   }
+
+   .contener .left table tr td{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    flex-direction: column;
+    width: 100%;
+    height: 5vh;
+    border-right: #262f43;
+   }
+
+
+ 
+   .right img
+   {
+     display: none;
+   }
+ }

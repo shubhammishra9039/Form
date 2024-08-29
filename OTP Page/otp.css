@@ -137,3 +137,33 @@ body {
     bottom: 75px;
   }
 }
+
+
+
+ /*  & Responsive  */
+
+@media only screen and (max-width: 768px)
+{
+  .contener
+  {
+    flex-direction: column;
+    width: 80%;
+    height: 49vh;
+  }
+  .contener .left form
+  {
+    gap: 20px;
+  }
+  .contener .left form div
+  {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .contener .right{
+   
+  }
+  .right img
+  {
+    display: none;
+  }
+}
