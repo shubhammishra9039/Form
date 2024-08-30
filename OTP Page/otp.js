@@ -14,7 +14,9 @@ let timer = 25;
 
 console.log(errorMsg);
 
+// ! timer Function 
 setInterval(() => {
+  
   timer--;
 
   if (timer > 5) {
