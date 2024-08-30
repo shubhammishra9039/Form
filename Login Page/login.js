@@ -8,6 +8,8 @@ let errorMgs = document.getElementById("erroemsg");
 console.log(errorMgs);
 
 function login(e) {
+
+  e.preventDefault();
   let isValid = true;
 
   if (userEmail.value === "" || userPassword.value === "") {
@@ -53,6 +55,6 @@ function login(e) {
 
     }
 
-    e.preventDefault();
+   
   }
 }

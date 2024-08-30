@@ -8,16 +8,18 @@ let userCnPassword = signup.confirmpassword;
 
 let errorMsg = document.getElementById("errorMsg");
 
-// console.log(signup);
-// console.log(userName);
-// console.log(userLastName);
-// console.log(UserNumber);
-// console.log(userEmail);
-// console.log(userPassword);
-// console.log(userCnPassword);
-// console.log(errorMsg);
+function resetBorders() {
+  userName.style.border = "";
+  userLastName.style.border = "";
+  UserNumber.style.border = "";
+  userEmail.style.border = "";
+  userPassword.style.border = "";
+  userCnPassword.style.border = "";
+}
 
 function validation(e) {
+  e.preventDefault();
+  resetBorders();
   let userNameValidation = /^[A-Za-z]+$/g.test(userName.value.trim());
   let userNumberValidation = /^[6-9][0-9]{9}/g.test(UserNumber.value.trim());
   let Mistake =0
@@ -118,7 +120,7 @@ function validation(e) {
 
           
 
-      e.preventDefault();
+     
     }
 
 
